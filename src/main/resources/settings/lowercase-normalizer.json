@@ -1,0 +1,13 @@
+{
+  "index": {
+    "analysis": {
+      "normalizer": {
+        "lowercase_keyword": {
+          "type": "custom",
+          "char_filter": [],
+          "filter": ["lowercase"]
+        }
+      }
+    }
+  }
+}

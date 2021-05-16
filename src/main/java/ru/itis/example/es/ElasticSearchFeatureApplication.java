@@ -1,0 +1,15 @@
+package ru.itis.example.es;
+
+import lombok.RequiredArgsConstructor;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@RequiredArgsConstructor
+public class ElasticSearchFeatureApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(ElasticSearchFeatureApplication.class, args);
+    }
+
+}
